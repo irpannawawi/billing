@@ -160,7 +160,7 @@ switch ($action) {
         $id = _post('id');
         $d = ORM::for_table('tbl_transactions')->where('id', $id)->find_one();
         $ui->assign('in', $d);
-
+        var_dump($id);die;
         $ui->assign('date', Lang::dateAndTimeFormat($d['recharged_on'], $d['recharged_time']));
         run_hook('print_invoice'); #HOOK
         $ui->display('invoice-print.tpl');
