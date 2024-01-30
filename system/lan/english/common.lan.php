@@ -424,3 +424,4 @@ $_L['Buy_this_your_active_package_will_be_overwrite'] = 'Buy this? your active p
 $_L['Buy_this_your_active_package_will_be_overwrite'] = 'Buy this? your active package will be overwrite';
 $_L['Buy_this_your_active_package_will_be_overwrite'] = 'Buy this? your active package will be overwrite';
 $_L['Buy_this_your_active_package_will_be_overwrite'] = 'Buy this? your active package will be overwrite';
+$_L['No_Payment_Gateway_Available'] = 'No Payment Gateway Available';
